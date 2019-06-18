@@ -37,13 +37,13 @@ class BeachItem extends React.Component {
         </section>
 
         <div style={btnStyle} className={styles.edit}>
-          <Link to={`/beach/${beach.id}`}>
+          <Link aria-label="Edit button" to={`/beach/${beach.id}`}>
             <EditIcon />
           </Link>
         </div>
 
         <div style={btnStyle} className={styles.delete}>
-          <button onClick={() => deleteBeach(beach.id)}>
+          <button aria-label="Delete button" onClick={() => deleteBeach(beach.id)}>
             <DeleteIcon />
           </button>
         </div>

@@ -6,7 +6,7 @@ import AddIcon from "./AddIcon";
 export default function AddBeach() {
   return (
     <div className={styles.container}>
-      <Link to="/beach">
+      <Link aria-label="Add Beach" to="/beach">
         <AddIcon />
         <span>Add Beach</span>
       </Link>

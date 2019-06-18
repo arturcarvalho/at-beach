@@ -12,7 +12,7 @@ export default function Header({
     <header className={styles.container}>
       <div className={styles.info}>
         <h1>
-          <Link to={"/"}>At Beach</Link>
+          <Link aria-label="Go home" to={"/"}>At Beach</Link>
         </h1>
         <h2>Premium Luxembourgish beaches.</h2>
       </div>

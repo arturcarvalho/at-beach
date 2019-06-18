@@ -58,7 +58,7 @@ function BeachFields({
 
       <div className={styles.bottom}>
         <input className={styles.submit} type="submit" value={submitLabel} />
-        <Link to="/">cancel</Link>
+        <Link aria-label="Cancel" to="/">cancel</Link>
       </div>
     </form>
   );

@@ -15,7 +15,7 @@ function BeachPicture({ picture, handlePictureChange }) {
       <img className={styles.bigPicture} alt="beach" src={getImage(picture)} />
     );
 
-    footer = <button onClick={resetPicture}>Change picture</button>;
+    footer = <button aria-label="Change picture" onClick={resetPicture}>Change picture</button>;
   } else {
     body = (
       <div className={styles.pictures}>
