@@ -1,0 +1,6 @@
+.details {
+  display: flex;
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: var(--round-corner);
+}

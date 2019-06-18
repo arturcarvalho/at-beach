@@ -1,0 +1,31 @@
+:root {
+  --gray-color: #f3f3f3;
+  --dark-gray-color: #9da0aa;
+  --blue-color: #5181fe;
+  --white-color: #fff;
+  --black-color: #232a3a;
+  --red-color: #ff694e;
+  --yellow-color: #F7B535;
+  --round-corner: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  background: var(--gray-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: var(--blue-color);
+}

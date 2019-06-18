@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white-color);
+  padding: 10px;
+  border-radius: var(--round-corner);
+  margin-bottom: 10px;
+}
+
+.container svg {
+  fill: var(--white-color);
+  height: 20px;
+}
+
+.info {
+  margin-left: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.title {
+  color: var(--dark-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.notes {
+  margin-top: 4px;
+  color: var(--dark-gray-color);
+}
+
+.image img {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+  height: 50px;
+  width: 50px;
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+}
+
+.edit {
+  opacity: 0;
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue-color);
+  cursor: pointer;
+}
+
+.delete button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--red-color);
+  cursor: pointer;
+}

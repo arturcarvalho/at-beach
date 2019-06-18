@@ -1,0 +1,57 @@
+.fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.left label {
+  display: flex;
+  flex-direction: column;
+}
+
+.left span {
+  margin: 5px 0;
+}
+
+.bottom {
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.fields input {
+  padding: 5px;
+}
+
+.fields label {
+  text-align: left;
+  padding: 5px;
+}
+
+input.submit {
+  font-size: 18px;
+  font-family: "Montserrat";
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+  background: var(--blue-color);
+  color: var(--white-color);
+  padding: 10px;
+  margin-right: 15px;
+  border: none;
+  border-radius: var(--round-corner);
+  cursor: pointer;
+}

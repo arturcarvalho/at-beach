@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  text-align: left;
+}
+
+.container a {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+  background: var(--blue-color);
+  color: var(--white-color);
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.container svg {
+  margin-right: 10px;
+  fill: var(--white-color);
+}
