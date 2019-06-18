@@ -29,7 +29,7 @@ Run Tests:
 - Change from the currency formatter to a library.
 - Speed up update/insert beaches by sorting the array (can use binary search after).
 - Speed up update/insert beaches by changing from array to hash.
-- Different image sizes for the beaches + load them as needed
+- Different image sizes for the beaches (thumbnails) + load them as needed.
 - Flickering when the last thing you do in a beach, is change the price.
 - Optimize for mobile (media queries, show edit/delete icons by default, etc.).
 - Add form validation.

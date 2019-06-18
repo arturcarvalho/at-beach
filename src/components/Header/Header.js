@@ -14,7 +14,7 @@ export default function Header({
         <h1>
           <Link aria-label="Go home" to={"/"}>At Beach</Link>
         </h1>
-        <h2>Premium Luxembourgish beaches.</h2>
+        <h2>Premium Luxembourgish beaches</h2>
       </div>
 
       <Notification
