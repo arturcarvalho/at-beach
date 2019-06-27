@@ -65,9 +65,6 @@ class App extends React.Component {
     });
   };
 
-  clearNotification = () => {
-    this.setState({ notification: "" });
-  };
   render() {
     return (
       <Router>
@@ -75,7 +72,6 @@ class App extends React.Component {
           <Header
             notification={this.state.notification}
             notificationDate={this.state.notificationDate}
-            clearNotification={this.notification}
           />
 
           <Switch>
